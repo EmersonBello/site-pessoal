@@ -57,7 +57,7 @@ aside {
 }
 
 .curiosidade_info p {
-    border: 2px solid #959292; /* Cor da borda */
+    box-shadow: 0 2px 4px var(--blue);
     padding: 10px;
     border-radius: 10px;
 }
@@ -121,6 +121,13 @@ aside {
 
 .Projects_info span {
     font-weight: 500;
+}
+
+footer {
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 20px;
+    background: #E3E3E3;
 }
 
 footer .bottom-footer {

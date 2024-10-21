@@ -10,6 +10,11 @@ main{
 .main_info {
     width: 80%;
     max-width: 450px;
+    
+}
+
+.main_info img {
+    filter: drop-shadow(5px 2px 5px var(--blue));
 }
 
 .main_info p {

@@ -6,11 +6,21 @@ header{
     width: 90%;
     max-width: 1440px;
     padding-top: 24px;
+  
+    position: fixed;  
+    
 }
 
 header img{
     width: 70px;
     height: auto;
+}
+
+header img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.1); 
 }
 
 .navigation {
